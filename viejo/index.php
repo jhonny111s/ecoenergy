@@ -1,6 +1,6 @@
 <?php
-echo "Hola";
-exit;
+//echo "Hola";
+//exit;
 	include 'clases/funciones.php';
 	session_start();
 	$portal = Cargar_Plantilla("index.html");
