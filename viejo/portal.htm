@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<link rel="icon" type="image/png" href="--root--images/isc-icon.png">
+		<link rel="stylesheet" type="text/css" href="--root--css/style.css">
+		<script src="--root--js/prueba.js" type="text/javascript"></script>
+		<script src="--root--jquery/development-bundle/jquery-1.6.2.js" type="text/javascript"></script>
+		<script src="--root--jquery/development-bundle/ui/jquery.ui.core.js" type="text/javascript"></script>
+		<script src="--root--jquery/development-bundle/ui/jquery.ui.widget.js" type="text/javascript"></script>
+		<script src="--root--jquery/development-bundle/ui/jquery.ui.datepicker.js" type="text/javascript"></script>
+		<script src="--root--js/jq.js" type="text/javascript"></script>
+		<title>Portal Ingeniería de Sistemas y Computación - ISC</title>
+	</head>
+<body>
+  <div id="todo">
+      <div id="contenedor">
+          <div id="cabecera">
+			  <div id="bannerisc">
+				  <a href="http://www.utp.edu.co/" ><img src="--root--images/banner.jpg" alt="logo isc"></a>
+			  </div>
+			  <br>
+			  <div id="menu-cabecera">
+				<div id="nav">
+					<a href="--root--index.php">Inicio</a> | 
+					--sesion--
+              	</div><!-- end nav -->
+			  </div>
+          </div><!-- end header -->
+          <dl id="menu">
+              <dt>ISC</dt>
+              <dd><a href="--root--informacion/general.html">Nosotros</a></dd>
+              <dd><a href="--root--php/programa.php">Programa de Estudios</a></dd>
+              <dd><a href="--root--php/programa.php?pregrado">Pregrado</a></dd>
+              <dd><a href="--root--php/programa.php?postgrado">Postgrado</a></dd>
+              <dd><a href="--root--php/extension.php">Extensión</a></dd>
+              <dd><a href="--root--php/interes.php">De Interés</a></dd>
+              <dd><a href="--root--php/grupos.php">Semilleros y Grupos de Investigación</a></dd>
+              <dd><a href="--root--php/profesores.php">Profesores</a></dd>
+              <dd><a href="--root--php/egresados.php">Egresados</a></dd>
+              <!--links-->			  
+			  <dd><br ></dd>
+              <dt>Iniciar Sesion</dt>
+              <dd class="sesion">
+              <noscript>Su navegador no soporta Javascript o lo tiene desactivado por esta razon no tiene permitido el acceso</noscript> 
+			  <center>
+                <form id="forma_login" name="forma_login" method="post" action="--root--php/autenticar.php" onsubmit="return validar(this);">        	
+	                <table>
+	                <tr>
+	                	<th>Usuario:</th>
+						<td><input type="text" name="usuario" id="usuarioid" value="" ></td>
+	                </tr><tr>
+	                	<th>Contraseña:</th>
+						<td><input type="password" name="password" id="passwordid" value="" ></td>
+					</tr>
+					</table>
+	                <input type="submit" class="boton" id="boton_entrar" name="boton_entrar" value="Entrar">
+	            <p >
+	               Si es la primera vez que ingresa, el usuario es su código (cédula o tarjeta de identidad) y la clave también será su código,
+	               por favor digítela sin puntos y sin comas
+	            </p>
+	            <p >
+	                Si olvidó su contraseña haga clic <a href="--root--php/recuperar.php" id="recuperar">aquí</a>
+	            </p>
+				</form>	
+				</center>
+              </dd>
+           </dl>
+           <div id="body">
+              <div class="contenedor">
+                  <div class="leftbox" id="caja1">
+                      --caja1--
+                  </div><!-- end .leftbox -->
+                  
+                  <div class="clear br"></div>
+
+                  <div class="leftbox">
+                      --caja2--
+                  </div><!-- end .leftbox -->
+					
+                  <div class="clear br"></div>
+
+                  <div class="leftbox">
+                      --caja3--
+                  </div><!-- end .leftbox -->
+					
+                  <div class="clear"></div>
+                  
+              </div><!-- fin .contenedor -->
+          </div><!-- fin body -->
+          
+          <div class="clear"></div>
+          <div id="pie">
+          	<div id="bannerinf">
+          		<img alt="" src="--root--images/bannerinf.jpg">
+          	</div>
+          	<div id="validacion">
+          		<p>
+				    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+				        <img style="border:0;width:88px;height:31px"
+				            src="http://jigsaw.w3.org/css-validator/images/vcss"
+				            alt="¡CSS Válido!">
+				    </a>
+					<a href="http://validator.w3.org/check?uri=referer"><img
+					src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+				</p>
+          	</div>
+          	
+              <div id="footnav">
+              Ingeniería de Sistemas y Computación<br>
+          		Edificio Sistemas-Tercer Piso<br>
+      			+06 3137123 correo:malucy@utp.edu.co
+              </div>
+          </div><!-- fin pie -->
+      </div><!-- end contenedor -->
+  </div><!-- end todo -->
+</body>
+</html>
